@@ -1,7 +1,8 @@
-_copy of README.md on ts-starter example project_
+# First MC Game Instructions
 
 ## Getting Started
 
+<!-- Copy of README.md on ts-starter example project -->
 1. The `ts-starter` folder (this folder) contains a starter TypeScript project for Minecraft. Note that there is a `ts-starter-complete-cotta` folder that will show you the finished product and code.
 
 1. To make your own environment look like the example, create a folder on your `C:\` drive and call it **projects**. Create a subfolder called **cotta**.
@@ -32,7 +33,7 @@ It might also ask you to install the Minecraft Debugger and Blockception's Visua
 
 In Visual Studio Code, open the file `.env`. This contains the environment variables to use to configure project:
 
-```
+```env
 PROJECT_NAME="starter"
 MINECRAFT_PRODUCT="BedrockUWP"
 CUSTOM_DEPLOYMENT_PATH=""
@@ -442,7 +443,7 @@ For gameplay, we want mobs to spawn more frequently as your score goes up. To do
 
 As you play, zombies should spawn and start chasing you. They'll spawn slowly at first, but as you break blocks they'll start to accumulate and bother you while you try to break terracotta blocks.
 
-### Add more challenges!
+### Add more challenges
 
 Let's add a new gameplay twist: randomly spawning obstructions in the form of leaves.
 

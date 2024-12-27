@@ -35,12 +35,13 @@
     "mcaddon",
     "minecart",
     "overworld",
+    "prestart",
     "shulker",
     "zoglin"
   ],
   "editor.tabSize": 2,
   "eslint.useFlatConfig": true,
-  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "json.schemas": [
     {
       "fileMatch": ["skin_pack/skins.{json,jsonc,json5}"],
@@ -533,5 +534,12 @@
       ],
       "url": "https://raw.githubusercontent.com/Blockception/Minecraft-bedrock-json-schemas/main/resource/textures/ui_texture_definition.json"
     }
-  ]
+  ],
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true
 }
