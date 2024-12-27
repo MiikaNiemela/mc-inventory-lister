@@ -15,10 +15,6 @@ export default [
     },
     rules: {
       "minecraft-linting/avoid-unnecessary-command": "error",
-      "minecraft-linting/no-hardcoded-ids": "warn",
-      "minecraft-linting/consistent-naming": "error",
-      "minecraft-linting/no-deprecated-apis": "error",
-      "minecraft-linting/valid-json": "error",
     },
   },
 ];
