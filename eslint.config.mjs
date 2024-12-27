@@ -12,9 +12,11 @@ export default [
     plugins: {
       ts,
       "minecraft-linting": minecraftLinting,
+      "check-file"
     },
     rules: {
       "minecraft-linting/avoid-unnecessary-command": "error",
+      "**/*.{js,ts}': 'SNAKE_CASE",
     },
   },
 ];
